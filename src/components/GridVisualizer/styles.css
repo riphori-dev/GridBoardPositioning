@@ -1,0 +1,20 @@
+.grid-table {
+  border-collapse: collapse;
+}
+
+.grid-cell {
+  width: 64px;
+  height: 64px;
+  border: 1px solid rgba(0,0,0,0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell-marker {
+  transition: transform 0.15s ease-in-out;
+}
+
+.error-box {
+  margin: 8px 0;
+}
